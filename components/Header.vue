@@ -2,22 +2,22 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6">
-        <img src="~/static/logo_1.svg" alt="Klevo">
+        <img src="~/assets/logo_1.svg" alt="Klevo">
         <ul class="links">
           <li class="link-item">
             <NuxtLink to="/">Головна</NuxtLink>
           </li>
           <li class="link-item">
-<!--            <NuxtLink to="/gallery">Галерея</NuxtLink>-->
+            <a href="#">Галерея</a>
           </li>
           <li class="link-item">
-<!--            <NuxtLink to="/news">Новини</NuxtLink>-->
+            <a href="#">Новини</a>
           </li>
           <li class="link-item">
-<!--            <NuxtLink to="/shop">Магазин</NuxtLink>-->
+            <a href="#">Магазин</a>
           </li>
           <li class="link-item">
-<!--            <NuxtLink to="/contacts">Контакти</NuxtLink>-->
+            <a href="#">Контакти</a>
           </li>
         </ul>
       </div>
@@ -31,8 +31,8 @@
           <p>вул. Соборна 13/1</p>
         </div>
         <div class="images">
-          <img src="~/static/loupe 1.svg" alt="Search">
-          <img src="~/static/user 1.svg" alt="Profile">
+          <img src="~/assets/loupe 1.svg" alt="Search">
+          <img src="~/assets/user 1.svg" alt="Profile">
         </div>
       </div>
     </div>

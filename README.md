@@ -13,7 +13,7 @@ $ yarn dev
 $ yarn build
 $ yarn start
 
-# generate static project
+# generate assets project
 $ yarn generate
 ```
 

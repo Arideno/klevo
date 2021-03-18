@@ -7,7 +7,7 @@
     </div>
     <div class="row">
       <div class="col-12 d-flex justify-content-center">
-        <img src="~/static/main_1.png" alt="Main">
+        <img src="~/assets/main_1.png" alt="Main">
       </div>
     </div>
     <div class="row grid-block">
@@ -17,7 +17,7 @@
             <p>В нас найкращий брендовий</p>
             <p>одяг з України та Європи</p>
           </div>
-          <img src="~/static/grid_1_1.png" alt="Grid11">
+          <img src="~/assets/grid_1_1.png" alt="Grid11">
         </div>
       </div>
       <div class="col-md-6 d-flex justify-content-center">
@@ -27,10 +27,10 @@
             <p>для Ваших дітей</p>
           </div>
           <div class="grid-block__images">
-            <img src="~/static/grid_2_1.png" alt="Grid21">
-            <img src="~/static/grid_2_2.png" alt="Grid22">
-            <img src="~/static/grid_2_3.png" alt="Grid23">
-            <img src="~/static/grid_2_4.png" alt="Grid24">
+            <img src="~/assets/grid_2_1.png" alt="Grid21">
+            <img src="~/assets/grid_2_2.png" alt="Grid22">
+            <img src="~/assets/grid_2_3.png" alt="Grid23">
+            <img src="~/assets/grid_2_4.png" alt="Grid24">
           </div>
         </div>
       </div>
@@ -40,9 +40,9 @@
         <h2 class="images-block__title">Ми даруємо радість Вам і Вашим дітям</h2>
       </div>
       <div class="col-12 images-block__images">
-        <img src="~/static/main_2.png" alt="Main2">
-        <img src="~/static/main_3.png" alt="Main3">
-        <img src="~/static/main_4.png" alt="Main4">
+        <img src="~/assets/main_2.png" alt="Main2">
+        <img src="~/assets/main_3.png" alt="Main3">
+        <img src="~/assets/main_4.png" alt="Main4">
       </div>
     </div>
     <div class="row">
@@ -74,11 +74,11 @@
         <div class="social-block">
           <p class="mb-1">Ми у соціальних мережах</p>
           <div class="d-flex mb-1">
-            <img src="~/static/instagram.svg" alt="Instagram">
+            <img src="~/assets/instagram.svg" alt="Instagram">
             <p class="social-tag">@klevolook</p>
           </div>
           <div class="d-flex">
-            <img src="~/static/facebook.svg" alt="Facebook">
+            <img src="~/assets/facebook.svg" alt="Facebook">
             <p class="social-tag">@klevo2017</p>
           </div>
         </div>

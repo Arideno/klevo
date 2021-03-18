@@ -4,7 +4,7 @@
       <div class="col-3">
         <div class="logo-block">
           <div class="d-flex justify-content-center">
-            <img class="logo" src="~/static/logo_2.svg" alt="Klevo">
+            <img class="logo" src="~/assets/logo_2.svg" alt="Klevo">
           </div>
           <div class="d-flex justify-content-center">
             <div class="copy">
@@ -51,8 +51,8 @@
           <div class="question-button">
             <p>Задати питання</p>
           </div>
-          <img src="~/static/instagram_white.svg" alt="Instagram">
-          <img src="~/static/facebook_white.svg" alt="Facebook">
+          <img src="~/assets/instagram_white.svg" alt="Instagram">
+          <img src="~/assets/facebook_white.svg" alt="Facebook">
         </div>
       </div>
     </div>

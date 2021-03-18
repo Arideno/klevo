@@ -1,8 +1,8 @@
 <template>
   <div class="comment">
-    <img class="bubble" :src="require(`~/static/${img}`)" alt="Bubble">
+    <img class="bubble" :src="require(`~/assets/${img}`)" alt="Bubble">
     <h3 class="name">{{ name }}</h3>
-    <img class="brackets" src="~/static/brackets.svg" alt="Brackets">
+    <img class="brackets" src="~/assets/brackets.svg" alt="Brackets">
     <p class="comment__text">{{ comment }}</p>
     <div class="stars">
       <div class="star filled" v-for="index in filledStarsArray" :key="index"></div>
@@ -87,7 +87,7 @@ export default {
   justify-content: center;
 
   .star {
-    background-image: url("~/static/star_unfilled.svg");
+    background-image: url("~/assets/star_unfilled.svg");
     width: 25px;
     height: 25px;
     margin-right: 10px;
@@ -97,7 +97,7 @@ export default {
     }
 
     &.filled {
-      background-image: url("~/static/star_filled.svg");
+      background-image: url("~/assets/star_filled.svg");
     }
   }
 }
