@@ -11,12 +11,16 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      { href: 'https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap', rel: 'stylesheet' },
+      { href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap', rel: 'stylesheet' },
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'normalize.css/normalize.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -32,9 +36,21 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/style-resources',
+    ['vuejs-google-maps/nuxt', {apiKey: 'AIzaSyDf0gcNSSu8B5NxMzm3qzDoSFiZZ2SJW9A'}]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  styleResources: {
+    scss: [
+      '~/assets/css/main.scss',
+    ]
+  },
+
+  generate: {
+    dir: 'docs'
   }
 }

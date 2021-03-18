@@ -10,7 +10,13 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.14.12",
+    "vuejs-google-maps": "^0.0.13"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "10"
+  }
 }
