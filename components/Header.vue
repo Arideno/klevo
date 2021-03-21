@@ -17,15 +17,15 @@
             <a href="#">Магазин</a>
           </li>
           <li class="link-item">
-            <a href="#">Контакти</a>
+            <NuxtLink to="/about">Контакти</NuxtLink>
           </li>
         </ul>
       </div>
       <div class="col-md-6 right-buttons">
-        <div class="call-btn">
+        <a href="tel:+3800501000175" class="call-btn">
           <p class="call-btn-title">Зателефонувати</p>
           <p class="call-btn-number">+380 050 100 0175</p>
-        </div>
+        </a>
         <div class="address-block">
           <p>м. Миколаїв</p>
           <p>вул. Соборна 13/1</p>
@@ -84,7 +84,7 @@ a {
 .right-buttons {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 
   .call-btn {
     width: 120px;

@@ -64,9 +64,7 @@
     </div>
     <div class="row contacts">
       <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
-        <google-map :center="{ lat: 46.965407, lng: 31.987489 }" :zoom="15" id="map">
-          <google-map-marker :position="{ lat: 46.965407, lng: 31.987489 }"></google-map-marker>
-        </google-map>
+        <iframe id="map" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:Ej1Tb2Jvcm5hIFN0LCAxMywgTXlrb2xhaXYsIE15a29sYWl2cydrYSBvYmxhc3QsIFVrcmFpbmUsIDU0MDAwIlASTgo0CjIJWQGog2bJxUARMDj9Twa28tkaHgsQ7sHuoQEaFAoSCdUTcvuJy8VAETzhoXQKgl_IDBANKhQKEgkvvsmwesnFQBGm7fvu1AHIHQ&key=AIzaSyDf0gcNSSu8B5NxMzm3qzDoSFiZZ2SJW9A"></iframe>
       </div>
       <div class="col-12 col-md-6 contact-block">
         <p>Місто Миколаїв, вулиця Соборна 13/1</p>
@@ -91,7 +89,7 @@
 export default {}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .title {
   color: $secondary-color;
   text-align: center;

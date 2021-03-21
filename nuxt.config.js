@@ -37,7 +37,6 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/style-resources',
-    ['vuejs-google-maps/nuxt', {apiKey: 'AIzaSyDf0gcNSSu8B5NxMzm3qzDoSFiZZ2SJW9A'}]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
