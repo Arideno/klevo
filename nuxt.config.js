@@ -41,7 +41,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    publicPath: '/klevo/'
   },
 
   styleResources: {
@@ -50,10 +49,10 @@ export default {
     ]
   },
 
-  generate: {
-    dir: 'docs'
-  },
-
   target: 'static',
-  ssr: false
+  ssr: false,
+
+  router: {
+    base: '/klevo/'
+  }
 }
