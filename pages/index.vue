@@ -161,7 +161,7 @@ export default {}
     margin-top: 25px;
 
     img {
-      width: 100%;
+      max-width: 100%;
     }
 
     .two-images {
@@ -234,9 +234,5 @@ export default {}
       color: $secondary-color;
     }
   }
-}
-
-img {
-  max-height: 100%;
 }
 </style>
