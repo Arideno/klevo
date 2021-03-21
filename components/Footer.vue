@@ -13,7 +13,7 @@
           </div>
         </div>
       </div>
-      <div class="col-7 d-none d-lg-flex">
+      <div class="col-lg-6 d-none d-lg-flex">
         <div class="links">
           <h2>Компанія</h2>
           <ul>
@@ -39,7 +39,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-8 col-lg-3">
+      <div class="col-8 col-lg-4">
         <div class="d-flex justify-content-end">
           <div class="info">
             <p>м. Миколаїв, вул Соборна 13/1</p>

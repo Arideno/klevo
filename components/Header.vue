@@ -19,7 +19,7 @@
             <a href="#">Новини</a>
           </li>
           <li class="link-item">
-            <a href="#">Магазин</a>
+            <NuxtLink to="/shop">Магазин</NuxtLink>
           </li>
           <li class="link-item">
             <NuxtLink to="/about">Контакти</NuxtLink>
@@ -81,7 +81,13 @@ a {
   text-decoration: none;
   color: $grey-color;
   size: 20px;
+  transition: 0.3s;
+
   &.nuxt-link-exact-active {
+    color: $primary-color;
+  }
+
+  &:hover {
     color: $primary-color;
   }
 }
