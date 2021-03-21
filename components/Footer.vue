@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-3">
+      <div class="col-4 col-lg-2">
         <div class="logo-block">
           <div class="d-flex justify-content-center">
             <img class="logo" src="~/assets/logo_2.svg" alt="Klevo">
@@ -9,12 +9,11 @@
           <div class="d-flex justify-content-center">
             <div class="copy">
               <p>Copyright &copy; 2017-2021 Klevo.</p>
-              <p>All rights reserved.</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-6 d-flex">
+      <div class="col-7 d-none d-lg-flex">
         <div class="links">
           <h2>Компанія</h2>
           <ul>
@@ -40,17 +39,17 @@
           </ul>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-8 col-lg-3">
         <div class="d-flex justify-content-end">
           <div class="info">
             <p>м. Миколаїв, вул Соборна 13/1</p>
             <p>Телефон: +380 050 100 0175</p>
           </div>
         </div>
-        <div class="contact-buttons">
-          <div class="question-button">
-            <p>Задати питання</p>
-          </div>
+        <div class="contact-buttons d-none d-lg-flex">
+          <button class="question-button">
+            Задати питання
+          </button>
           <img src="~/assets/instagram_white.svg" alt="Instagram">
           <img src="~/assets/facebook_white.svg" alt="Facebook">
         </div>
@@ -132,7 +131,6 @@ export default {
 }
 
 .contact-buttons {
-  display: flex;
   margin-top: 20px;
   justify-content: end;
   margin-right: 45px;
@@ -157,12 +155,9 @@ export default {
     justify-content: center;
     align-items: center;
     margin-right: 35px;
-
-    p {
-      color: #fff;
-      font-size: 12px;
-      margin: 0;
-    }
+    color: #fff;
+    font-size: 12px;
+    border: none;
   }
 }
 </style>

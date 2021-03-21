@@ -1,7 +1,12 @@
 <template>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6">
+    <div class="row h-100">
+      <div class="d-flex d-xl-none col-12 justify-content-between align-items-center">
+        <img class="call-img" src="~/assets/phone-call.svg" alt="Call">
+        <img src="~/assets/logo_1.svg" alt="Klevo">
+        <img class="list-img" src="~/assets/list.svg" alt="Menu>">
+      </div>
+      <div class="d-none d-xl-block col-xl-7">
         <img src="~/assets/logo_1.svg" alt="Klevo">
         <ul class="links">
           <li class="link-item">
@@ -21,7 +26,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-6 right-buttons">
+      <div class="d-none d-xl-flex col-xl-5 right-buttons">
         <a href="tel:+3800501000175" class="call-btn">
           <p class="call-btn-title">Зателефонувати</p>
           <p class="call-btn-number">+380 050 100 0175</p>
@@ -79,6 +84,18 @@ a {
   &.nuxt-link-exact-active {
     color: $primary-color;
   }
+}
+
+.call-img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.list-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
 }
 
 .right-buttons {
