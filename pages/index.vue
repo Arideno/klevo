@@ -235,4 +235,8 @@ export default {}
     }
   }
 }
+
+img {
+  max-height: 100%;
+}
 </style>
