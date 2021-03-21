@@ -161,13 +161,18 @@ export default {}
     margin-top: 25px;
 
     img {
-      max-width: 100%;
+      height: auto;
+      &:first-child {
+        max-width: 100%;
+      }
     }
 
     .two-images {
       margin-top: 40px;
 
       img {
+        height: auto;
+        max-width: calc(50% - 20px);
         &:first-child {
           margin-right: 40px;
         }
